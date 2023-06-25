@@ -1,9 +1,9 @@
 # LinkedIn Data Analyst Jobs
 
 ## Description
-As the world of data analytics constantly evolves, so do the required skills and knowledge of data analysts. It can be hard to stay up to date on what companies need from their analysts with so many skills and tools to choose from.
+In the constantly evolving world of data analytics, it can be hard to keep up with what skills companies need their data analysts to know.
 
-I wanted to know what skills companies in my area wanted from their analysts, so I could further guide my own learning and projects and become a stronger candidate when applying.
+I wanted to find the most common skills required for data analysts in the Chicago area. I set up a process to automatically extract data from LinkedIn public job postings, and analyzed the results with Python.
 
 ## Project Info
 This project searches public job data from LinkedIn using the following parameters:
