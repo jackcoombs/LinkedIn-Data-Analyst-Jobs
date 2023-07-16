@@ -21,9 +21,7 @@ The resulting csvs are loaded into a single dataset, where I use pandas, matplot
 An issue I ran into with the data extraction is that LinkedIn will eventually want you to sign in to continue viewing job postings. This happens while looping through each job link and extracting additional info. That is why rows towards the bottom of each days export may lack additional data. As of this latest update, this affects around 14% of the job links in the data.
 
 ## Potential Improvements
-Eventually, I'd like to move this data to a data warehouse instead of storing on my local machine with csvs. This way the data can be queried with SQL and visualized with a BI tool. 
-
-Also, I'd like to analyze word pairs in the job descriptions, instead of single words. This way terms like "power bi" will show up as one term instead of two.
+I'd like to introduce a BI tool to analyze this data. Additionally, I'd like to analyze word pairs in the job descriptions, instead of single words. This way terms like "power bi" will show up as one term instead of two.
 
 ## Credits
 I'd like to credit the following creators whose content assisted with this project.
