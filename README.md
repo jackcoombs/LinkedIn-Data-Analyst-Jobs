@@ -15,7 +15,7 @@ This project searches public job data from LinkedIn using the following paramete
 
 Once a day, data from the results are scraped using selenium, and formated into a pandas dataframe. This dataframe is exported as a csv and saved, and also appended to a BigQuery table. (See ETL.ipynb)
 
-The BigQuery table is loaded intoa datafarme, where I then use pandas, matplotlib, and other packages to analyze the results. I look at the amount of new jobs per week, common job titles, common skills listed in the job descriptions, and plot the location of the jobs on a map. (See Analysis.ipynb)
+The BigQuery table is loaded into a dataframe, where I then use pandas, matplotlib, and other packages to analyze the results. I look at the amount of new jobs per week, common job titles, common skills listed in the job descriptions, and plot the location of the jobs on a map. (See Analysis.ipynb)
 
 ## Challenges
 An issue I ran into with the data extraction is that LinkedIn will eventually want you to sign in to continue viewing job postings. This happens while looping through each job link and extracting additional info. That is why rows towards the bottom of each days export may lack additional data. As of this latest update, this affects around 14% of the job links in the data.
